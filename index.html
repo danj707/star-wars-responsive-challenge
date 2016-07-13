@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Star Wars Responsive Challenge</title>
+  <title>Star Wars Grid</title>
 
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,10 +13,75 @@
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
-  <!-- Stylesheets -->
+  <!--Fontawesome!-->
+ 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="float-grid.css">
+  <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
+  <header>
+    <div class="row">
+      <div class="col-12 orange">
+        <h1>Star Wars Characters</h1>
+        <p>Incomplete list</p>
+      </div>
+    </div>
+  </header>
+
+    <div class="row">
+      <div class="col-4">
+        <div class="box">
+        <a href="https://en.wikipedia.org/wiki/Rey_(Star_Wars)">
+            <img class="swimage" src="images/rey_square.png" alt="Rey"></a>
+            <div class="content"><h2>Rey <i class="fa-resistance" aria-hidden="true"></i></h2>protagonist, from Jakku</div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="box"><a href="https://en.wikipedia.org/wiki/Finn_(Star_Wars)">
+          <img class="swimage" src="images/finn_square.png" alt="Finn"></a>
+          <div class="content"><h2>Finn <i class="fa-resistance" aria-hidden="true"></i></h2>Storm trooper, befriends Rey
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="box"><a href="http://starwars.wikia.com/wiki/Kylo_Ren">
+          <img class="swimage" src="images/kylo_square.png" alt="Kylo Ren"></a>
+          <div class="content"><h2>Kylo <i class="fa-first-order" aria-hidden="true"></i></h2>Main villain, or is he?
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <div class="row">
+      <div class="col-4">
+        <div class="box"><a href="https://en.wikipedia.org/wiki/Poe_Dameron">
+          <img class="swimage" src="images/poe_square.png" alt="Poe Dameron"></a>
+          <div class="content"><h2>Poe <i class="fa-resistance" aria-hidden="true"></i></h2>Resistance pilot
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="box"><a href="https://en.wikipedia.org/wiki/Chewbacca">
+          <img class="swimage" src="images/chewbacca_square.png" alt="Chewy"></a>
+          <div class="content"><h2>Chewbacca <i class="fa-resistance" aria-hidden="true"></i></h2>A great first mate
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="box"><a href="https://en.wikipedia.org/wiki/Yoda">
+          <img class="swimage" src="images/yoda_square.png" alt="Yoda"></a>
+          <div class="content"><h2>Yoda <i class="fa-resistance" aria-hidden="true"></i></h2>Wise old Jedi master he is
+          </div>
+       </div>
+      </div>
+    </div>
 
 </body>
 </html>

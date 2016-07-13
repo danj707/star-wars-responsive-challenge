@@ -1,0 +1,39 @@
+main {
+  padding-top: 100px;
+}
+
+header {
+  background-color:#eebb44;
+  margin-bottom:50px;
+}
+
+main .row {
+  margin-bottom: 20px;
+}
+
+.box {
+  text-align: left;
+  border:2px solid lightgrey;
+  border-radius:3px;
+  margin-bottom:20px;
+}
+
+.orange {
+  background-color:#eebb44;
+}
+
+.swimage {
+    width:100%;
+}
+
+.content {
+  padding:20px;
+}
+
+.fa-first-order {
+  font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.fa-resistance {
+  font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
